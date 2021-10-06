@@ -4,7 +4,8 @@ export default {
     input: 'src/index.ts',
     output: {
         dir: 'dist/',
+        sourcemap: true,
         format: 'cjs'
     },
-    plugins: [ typescript() ]
+    plugins: [ typescript( { allowJs: true } ) ]
 };
