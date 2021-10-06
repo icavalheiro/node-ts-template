@@ -2,13 +2,20 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "npm run dev",
     "dev": "rollup -c -w"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "ts",
+    "node",
+    "js",
+    "nodejs",
+    "rollup"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -17,6 +24,5 @@
     "typescript": "^4.4.3",
     "rollup": "^2.58.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
